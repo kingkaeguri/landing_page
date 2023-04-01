@@ -17,6 +17,20 @@
         top: 0;
         left: 0;
         width: 100%;
-        padding: 2rem;
+        padding: 1rem;
         background-color: #1F2937;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    .logo {
+        font-size: 24px;
+        color: #F9FAF8;
+    }
+    .navbar {
+        font-size: 18px;
+        color: #F9FAF8;
+        /*text-decoration-color: none;*/
+        /* the text color is not changing.. I'm not sure why but it might be because something else is overriding it AND/OR because these are links and I need to find a way to change the link color */
     }
