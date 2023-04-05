@@ -28,9 +28,37 @@
         font-size: 24px;
         color: #F9FAF8;
     }
-    .navbar {
+    /*a:link {
+        color: #F9FAF8;
+    }*/
+
+    .navbar a:link {
         font-size: 18px;
         color: #F9FAF8;
+        /*color: #F9FAF8;*/
+        
         /*text-decoration-color: none;*/
         /* the text color is not changing.. I'm not sure why but it might be because something else is overriding it AND/OR because these are links and I need to find a way to change the link color */
+
+        /*OKAY SO, I added the "a:link" thing above that finally changed the color of the links*/
+    }
+
+    .section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 100vh;
+    }
+
+    .section_one {
+        flex-direction: column;
+
+    }
+
+    .section_two {
+        background-color: ;
+    }
+
+    .section_three {
+        background-color: #e5e7eb;
     }
